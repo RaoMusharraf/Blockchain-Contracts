@@ -1,0 +1,185 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "deposited",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "MaturityTime",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Persentage",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ERC20ContractAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "NFTContractAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ContractName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ContractSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TotalClaim",
+						"type": "string"
+					}
+				],
+				"name": "GetImageUrl",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "deposited",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "MaturityTime",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Persentage",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ERC20ContractAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "NFTContractAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ContractName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ContractSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TotalClaim",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "iUrl",
+						"type": "string"
+					}
+				],
+				"name": "GetUrl",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Brecht Devos <brecht@loopring.org>",
+			"kind": "dev",
+			"methods": {},
+			"title": "Base64",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"encode(bytes)": {
+					"notice": "Encodes some bytes to the base64 representation"
+				}
+			},
+			"notice": "[MIT License]Provides a function for encoding some bytes in base64",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OnChain/EncodeGenerate.sol": "EncodeGenerate"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/OnChain/EncodeGenerate.sol": {
+			"keccak256": "0x662a682c242834c07c8ae3ffb66c4dc87f903871330ee81a223af73b0c9c0801",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd291114e41b09d4e3b706de17fab677f0fc7c08888d77eb6049809626261375",
+				"dweb:/ipfs/QmYhof4Jam7oTp66SkmmGcWS5MfFizdyZPMLGRGUUokpXa"
+			]
+		}
+	},
+	"version": 1
+}
