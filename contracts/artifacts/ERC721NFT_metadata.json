@@ -242,11 +242,6 @@
 						"internalType": "address",
 						"name": "to",
 						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "uri",
-						"type": "string"
 					}
 				],
 				"name": "safeMint",
@@ -600,11 +595,11 @@
 			]
 		},
 		"contracts/ERC721.sol": {
-			"keccak256": "0x5598749c6f80573ecda02677b88262d34d6c3ad4ec4089909f527cd0d64d97f8",
+			"keccak256": "0x4e28232e9b78199df260b3cdd4b74a1e49096ed1f94c82da437fffa394110ced",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://95ffbe133bf48b218f2310d3641f91f34f71ed52a073f33a1df689f5c8fa4351",
-				"dweb:/ipfs/QmRZYtSGfwp37cnMP4vERbJfLdqwtAE8wuMQcBoEdR3pbL"
+				"bzz-raw://ebcc0b3559a83660ba0889f9c3de35427dc74da2aba60ed519bc0d91260e83f6",
+				"dweb:/ipfs/QmSHYaJrHqLdY1egH1JEcRh49s1KUqXjzPwrUM4tDVZfF5"
 			]
 		}
 	},
