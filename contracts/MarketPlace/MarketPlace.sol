@@ -45,16 +45,7 @@ contract Marketplace is ReentrancyGuard , Ownable{
         paymentToken = ERC20FT;
         AddminAddress = admin;
     }
-    // // ============ AdminEnterData FUNCTIONS ============
-    // /* 
-    //     @dev AdminEnterData in this function admin enter data related Cars.
-    //     @param _uri URI contains data like price & image etc.
-    //     @param _price is the required amount to buy any NFT.
-    // */
-    // function AdminEnterData (string memory _uri,uint _price) public onlyOwner{
-    //     _URICount.increment();
-    //     URI[_URICount.current()] = Admin(_uri,_price,_URICount.current());
-    // }
+    
     // ============ BuyAdmin FUNCTIONS ============
     /* 
         @dev BuyAdmin buy NFTs from Admin using id.

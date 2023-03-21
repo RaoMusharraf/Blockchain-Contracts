@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "forward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Example/Test.sol": "test"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Example/ITest.sol": {
+			"keccak256": "0x2ee7fbc19b29864efe0f4c2b9062f08d921083302767b27b4da839c7d9b49909",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f02cc6d17373dbfaf388ae830c955de7b67f3b6a3e6160bb54148a9a318154d",
+				"dweb:/ipfs/QmZst5ea7qqSp2qwHpVYzfzmgz1wMtCu8ekZjKEFHX9qQE"
+			]
+		},
+		"contracts/Example/Test.sol": {
+			"keccak256": "0xc4285b06e10a8d7ca811c36e2d329c07fd1a3b45dcbd01aa0c5f17af145ac1d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9fe77b1f8b95b4b397f1ab0d79eee840df194d1317e4c3c62b91b5b9c8f77660",
+				"dweb:/ipfs/QmbaRDeNVGRkE361M2FRsi6s2fTNgvV7PGqWzGVTLANmRr"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1",
+				"dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ"
+			]
+		}
+	},
+	"version": 1
+}
